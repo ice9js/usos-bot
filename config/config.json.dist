@@ -1,0 +1,23 @@
+{
+    "start": "Month Day, Year 00:00:00",
+
+    "user": {
+        "login": "",
+        "pass": ""
+    },
+
+    "subjects": [
+
+    ],
+
+    "browser": {
+        "browser": "firefox",
+        "host": "192.168.1.1",
+        "port": "4444"
+    },
+
+    "intervals": {
+        "check_time": 250,
+        "click": 1000
+    }
+}
