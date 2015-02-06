@@ -18,3 +18,12 @@
     - ./configure
     - make
     - make install
+
+- name: Set NODE_HOME
+  template:
+    src: node.sh.j2
+    dest: "/etc/profile.d/node.sh"
+
+- name: Install npm packages
+  shell: "/usr/local/bin/npm install -g {{ item }}"
+  with_items: npm.modules
