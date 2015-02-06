@@ -1,0 +1,6 @@
+#!/usr/local/bin/node
+
+var Bot = require('../src/Bot.js');
+
+var bot = new Bot();
+bot.run();
