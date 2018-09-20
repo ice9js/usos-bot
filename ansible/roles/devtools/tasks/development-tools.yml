@@ -1,3 +1,0 @@
----
-- name: Install development tools
-  yum: name='@development' state=installed
