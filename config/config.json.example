@@ -7,17 +7,17 @@
     },
 
     "subjects": [
-
+        { "name": "subject", "group": 1 }
     ],
 
     "browser": {
         "browser": "firefox",
-        "host": "192.168.1.1",
+        "host": "127.0.0.1",
         "port": "4444"
     },
 
     "intervals": {
-        "check_time": 250,
+        "check_time": 100,
         "click": 1000
     }
 }
