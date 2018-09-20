@@ -1,0 +1,23 @@
+{
+  "name": "usos-bot",
+  "version": "1.0.0",
+  "description": "A browser-bot for automated course registration in the USOS sytem written using node.js",
+  "main": "lib/app.js",
+  "scripts": {
+    "start": "node lib/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ice9js/usos-bot.git"
+  },
+  "author": "Kuba Birecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ice9js/usos-bot/issues"
+  },
+  "homepage": "https://github.com/ice9js/usos-bot#readme",
+  "devDependencies": {
+    "webdriverio": "^4.13.2"
+  }
+}

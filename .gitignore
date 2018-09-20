@@ -1,5 +1,5 @@
-#Configuration
+# Configuration
 config/config.json
 
-# Vagrant files
-.vagrant/
+# Node modules
+node_modules
